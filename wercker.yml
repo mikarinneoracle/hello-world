@@ -22,7 +22,6 @@ deploy:
         tag: $WERCKER_MAIN_PIPELINE_STARTED
         repository: $DOCKER_REGISTRY/$IMAGE_NAME
         registry: https://registry.hub.docker.com
-    #- mikarinneoracle/ORACLE-OCCS-rolling-router-deploy@1.1.0
     - script:
         name: deploy
         code: |
