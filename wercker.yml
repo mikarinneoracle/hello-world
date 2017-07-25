@@ -24,7 +24,7 @@ deploy:
         registry: https://registry.hub.docker.com
     #- mikarinneoracle/ORACLE-OCCS-rolling-router-deploy@1.1.0
     - script:
-        name: check
+        name: deploy
         code: |
                 set -ex
                 INSECURE_CURL="-k"
